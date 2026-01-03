@@ -84,15 +84,18 @@ input, select, textarea {
 }
 
 .video-container {
-    text-align: center;
-    margin: 2em 0;
+    width: 100%; /* Match the width of the article block */
+    max-width: 21.25em; /* Match the width of your .features article images (adjust if needed) */
+    margin: 0 auto 1em auto; /* Center it and add spacing below */
 }
 
 .video-container video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 100%; /* Full width of container */
+    height: auto; /* Keep aspect ratio */
+    display: block;
+    border-radius: 0;
 }
+
 
 .video-caption {
     font-size: 0.9em;
