@@ -83,33 +83,31 @@ input, select, textarea {
     margin-bottom: 4em;
 }
 
-.video-container {
-    width: 100%; /* Match the width of the article block */
-    max-width: 21.25em; /* Match the width of your .features article images (adjust if needed) */
-    margin: 0 auto 1em auto; /* Center it and add spacing below */
-}
-
-.video-container video {
-    width: 100%; /* Full width of container */
-    height: auto; /* Keep aspect ratio */
-    display: block;
-    border-radius: 0;
-}
-
-
 .video-caption {
     font-size: 0.9em;
     color: #ccc;
     margin-top: 0.5em;
 }
 
-.image video {
+
+.image-video-column {
+    display: flex;
+    flex-direction: column; /* Stack image on top of video */
+    gap: 1em; /* space between image and video */
+    width: 100%; /* take full width of the left column */
+}
+
+.image-video-column img,
+.image-video-column video {
+    width: 100%; /* make both span the container width */
+    height: auto; 
     display: block;
-    width: 100%;
-    height: auto;
     border-radius: 0;
 }
 
+.video-container video {
+    display: block;
+}
 
 
 
