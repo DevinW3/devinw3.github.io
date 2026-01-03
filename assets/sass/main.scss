@@ -1152,7 +1152,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'space-between');
-		background: _palette(header, bg);
+		background: #000000;
 		color: _palette(header, fg);
 		height: 100%;
 		overflow-y: auto;
