@@ -80,7 +80,7 @@ input, select, textarea {
     font-size: 0.85em;
     line-height: 1.4;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
 }
 
 
@@ -2224,7 +2224,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 10em;
 			border-radius: 0;
 		}
 
